@@ -2,7 +2,102 @@
 
 *{
     margin: 0px;
-    height: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Main Css*/
+.product-qlty{
+    margin: 5rem;
+}
+
+.qlty-header{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.qlty-check{
+    display: flex;
+    justify-content: center;
+}
+
+.process{
+    position: relative;
+    width: 19rem;
+}
+
+.qlty-sequence{
+    font-size: 4rem;
+    color: #EB984E;
+}
+
+.qlty-title{
+    position: absolute;
+    top: 2rem;
+}
+
+.qlty-info{
+    color: #99A3A4;
+    line-height: 1.4;
+}
+
+.more-info{
+    color: #EB984E;
+}
+
+/* Footer Css*/
+.copyright{
+    /* background-color: #F8C471; */
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #CCD1D1;
+}
+
+.ft-image{
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 5px;
+}
+
+.copyright-info{
+    font-size: 0.9rem;
+    color: #CCD1D1;
+}
+
+.smedia-logo{
+    color: #EB984E;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin-in, .fa-youtube, .fa-rss{
+    font-size: 1.1rem;
+}
+
+.fa-facebook:hover{
+    color: #2996df;
+}
+
+.fa-twitter:hover{
+    color: #3498DB;
+}
+
+.fa-linkedin-in:hover{
+    color: #21618C;
+}
+
+.fa-youtube:hover{
+    color: #E20C05;
+}
+
+.fa-rss:hover{
+    color: #D35400;
 }
